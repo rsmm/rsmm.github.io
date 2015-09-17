@@ -107,6 +107,10 @@ font headerji in footerji: DejaVu Sans Mono, DejaVu Sans Mono BOLD
     color: #E84A1D;
 }
 
+.jumbotron-custom a {
+    color: #2C4B80;
+}
+
 /* custom container */
 .container-custom {
     font-family: DejaVuSansBook, Helvetica, Arial, sans-serif;    
