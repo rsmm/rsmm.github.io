@@ -1,0 +1,118 @@
+/*
+barve
+TEMNO MODRA:
+#2C4B80
+
+SVETLO MODRA:
+#BCDEF6
+
+ORANZNA:
+#E84A1D
+
+JAJCNO BELA:
+#F1F7EE
+
+font besedilo: DejaVu Sans Book, DejaVu Sans BOLD
+font headerji in footerji: DejaVu Sans Mono, DejaVu Sans Mono BOLD
+*/
+
+
+
+/* load fonts */
+@font-face {
+    font-family: 'DejaVuSansBook';
+    src: url('/fonts/dejavusans-webfont.woff') format('woff'),
+         url('/fonts/dejavusans-webfont.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'DejaVuSansBold';
+    src: url('/fonts/dejavusans-bold-webfont.woff') format('woff'),
+         url('/fonts/dejavusans-bold-webfont.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'DejaVuSansMonoBook';
+    src: url('/fonts/dejavusansmono-webfont.woff') format('woff'),
+         url('/fonts/dejavusansmono-webfont.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'DejaVuSansMonoBold';
+    src: url('/fonts/dejavusansmono-bold-webfont.woff') format('woff'),
+         url('/fonts/dejavusansmono-bold-webfont.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+}
+
+/* test fonts  */
+.dejavu {
+    font-family: DejaVuSansBook, Helvetica, Arial, sans-serif;
+    font-size: 600%;
+    width: 100%;
+    text-align: center;
+}
+.dejavubold {
+    font-family: DejaVuSansBold, Helvetica, Arial, sans-serif;
+    font-size: 600%;
+    width: 100%;
+    text-align: center;
+}
+.dejavumono {
+    font-family: DejaVuSansMonoBook, Courier, monospace;
+    font-size: 600%;
+    width: 100%;
+    text-align: center;
+}
+.dejavumonobold {
+    font-family: DejaVuSansMonoBold, Courier, monospace;
+    font-size: 600%;
+    width: 100%;
+    text-align: center;
+}
+
+
+/* custom navbar */
+.navbar-custom {
+    font-family: DejaVuSansMonoBook, Courier, monospace;    
+    background-color:#BCDEF6;
+    color:#2C4B80;
+    border-radius:0;
+}
+.navbar-custom .navbar-nav > li > a {
+    color:#F1F7EE;
+}
+.navbar-custom .navbar-nav > .active > a, .navbar-nav > .active > a:hover, .navbar-nav > .active > a:focus {
+    color: #F1F7EE;
+    background-color:transparent;
+}
+.navbar-custom .navbar-brand {
+    color:#E84A1D;
+}
+
+/* custom jumbotron */
+.jumbotron-custom {
+    font-family: DejaVuSansBook, Helvetica, Arial, sans-serif;    
+    background: #F1F7EE;
+    color: #2C4B80;
+}
+.jumbotron-custom h1 {
+    color: #E84A1D;
+}
+
+/* custom container */
+.container-custom {
+    font-family: DejaVuSansBook, Helvetica, Arial, sans-serif;    
+    color: #2C4B80;
+}
+
+.small-text-custom {
+    font-size: 70%!important;    
+}
