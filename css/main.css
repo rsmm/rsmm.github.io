@@ -79,6 +79,14 @@ font headerji in footerji: DejaVu Sans Mono, DejaVu Sans Mono BOLD
 }
 
 
+/* site is under construction */
+.navbar-under-construction {
+    font-family: DejaVuSansMonoBook, Courier, monospace;    
+    background-color: #F1F7EE;
+    color:#2C4B80;
+    border-radius:0;
+}
+
 /* custom navbar */
 .navbar-custom {
     font-family: DejaVuSansMonoBook, Courier, monospace;    
@@ -100,7 +108,7 @@ font headerji in footerji: DejaVu Sans Mono, DejaVu Sans Mono BOLD
 /* custom jumbotron */
 .jumbotron-custom {
     font-family: DejaVuSansBook, Helvetica, Arial, sans-serif;    
-    background: #F1F7EE;
+    background-color: #F1F7EE;
     color: #2C4B80;
 }
 .jumbotron-custom h1 {
