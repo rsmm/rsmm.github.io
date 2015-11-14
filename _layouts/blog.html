@@ -1,0 +1,53 @@
+---
+layout: default
+nav: "novice"
+---
+
+<div class="container rsmm-novice">
+    <div class="row">
+        
+        <div class="col-sm-3 col-md-3 novice-seznam">
+            
+            <div id="rsmm-novice-icon">
+                <img src="/images/50_novice_tipkovnica_ORA.png" class="img-responsive center-block">
+
+                {% if page.novicehome == "home" %}
+                {% else %}
+                    <div id="rsmm-novice-image">
+                        <a href="/opodjetju/novice.html">
+                            <img src="/images/51_novice_tipkovnica.png" class="img-responsive center-block">
+                        </a>
+                    </div>
+                {% endif %}
+
+            </div>
+            
+            <p class="novice-naslov">novice</p>
+
+            {% for post in site.posts %}
+                <p>
+                    {% if page.title == post.title %}
+                        {{ post.title }}
+                    {% else %}
+                        <a href="{{ post.url }}">{{ post.title }}</a>
+                    {% endif %}
+                </p>
+            {% endfor %}
+            
+        </div>
+        
+        <div class="col-sm-1 col-md-1">
+        </div>
+
+        <div class="col-sm-8 col-md-8">
+            {% if page.novicehome == "home" %}
+            {% else %}
+                <p class="novice-title">{{ page.title }}</p>
+            {% endif %}
+            <div>
+                {{ content }}
+            </div>
+        </div>
+
+    </div>
+</div>

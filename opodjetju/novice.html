@@ -1,0 +1,34 @@
+---
+layout: blog
+title: Novice
+novicehome: home
+---
+
+<div class="row">
+    
+    <div class="col-sm-12 col-md-5">
+        {% for post in site.posts limit:2 %}
+            <div class="home-novica">
+                <a href="{{ post.url }}" class="novice-title">
+                    {{ post.title }}
+                </a>
+                <p>{{ post.excerpt }}</p>
+            </div>
+        {% endfor %}
+    </div>            
+
+    <div class="col-md-1">
+    </div>    
+    
+    <div class="col-sm-12 col-md-5">
+        {% for post in site.posts offset:2 limit:4 %}
+            <div class="home-novica">
+                <a href="{{ post.url }}" class="novice-title">
+                    {{ post.title }}
+                </a>
+                <p>{{ post.excerpt }}</p>
+            </div>
+        {% endfor %}
+    </div>            
+
+</div>
