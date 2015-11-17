@@ -1,5 +1,5 @@
 - title: "storitve"
-  href: "/storitve/"
+  href: "#"
   subcategories:
     - subtitle: "pregled sistema"
       subhref: "/storitve/pregled_sistema.html"
@@ -28,7 +28,7 @@
   href: "/opodjetju/cenik.html"
 
 - title: "o podjetju"
-  href: "/opodjetju/"
+  href: "#"
   subcategories:
     - subtitle: "predstavitev"
       subhref: "/opodjetju/predstavitev.html"
