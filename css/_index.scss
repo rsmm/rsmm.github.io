@@ -4,18 +4,30 @@
     background-color: $SVETLO-MODRA;
     border: 0;
     border-radius: 0;
-    height: 40px;
+    height: $rsmm-nav1-height;
 
     #rsmm-ime {
         font-weight: bold;
         text-transform: uppercase;
         padding: 10px 10px;
     }
+    #rsmm-noscript {
+        font-weight: bold;
+        background-color: $RUMENA;
+        color: $RDECA;
+        padding: 10px 10px;
+    }
+
 }
+@media (max-width: $screen-sm-min) { 
+    #rsmm-nav-1 {
+        height: 2 * $rsmm-nav1-height;
+    }
+}    
 
 // zgornji meni
 #rsmm-nav-2 {
-    top: 40px;
+    top: $rsmm-nav1-height;
     font-family: $font-family-monospace;
     border: 0;
     border-radius: 0;
@@ -31,6 +43,11 @@
         padding: 4px 20px;
     }
 }
+@media (max-width: $screen-sm-min) { 
+    #rsmm-nav-2 {
+        top: 2 * $rsmm-nav1-height;
+    }
+}    
 
 // footer
 #rsmm-footer {

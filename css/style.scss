@@ -48,13 +48,13 @@
     font-style: normal;
 }
 
+// headers and footers
+$rsmm-nav1-height: 40px;
+$rsmm-nav2-height: 60px;
+$rsmm-footer-height: 90px;
 
 @import 'rsmmVariables';
 @import 'bootstrap';
-
-
-// sticky footer
-$rsmm-footer-height: 90px;
 @import 'index';
 
 html {
@@ -76,6 +76,14 @@ body {
     hr {
         border-top-color: $SVETLO-MODRA;
         border-top-width: 2px;        
+    }
+    
+    #rsmm-nav-2 {
+        li.active {
+            a {
+                font-weight: bold;
+            }
+        }
     }
 }
 
@@ -268,12 +276,39 @@ body {
 
 
 // tuji jeziki
-.rsmm-international {
-    .naslov {
-        text-align: center;
-        color: $ORANZNA;
-        font-family: $font-family-monospace;
-        font-size: $font-size-large;
+.rsmm-language {
+    img {
+        margin-top: 30px;
+        margin-bottom: 30px;
+    }
+    #img-lang-logo {
+        margin-top: 10px;
+        margin-bottom: 10px;
+        width: 150px;
+    }
+    #img-lang-emonko {
+        max-height: 500px;
     }
 }
 
+#rsmm-lang-header {
+    line-height: $rsmm-nav2-height;
+
+    #rsmm-lang-naslov {
+        color: $ORANZNA;
+        font-weight: bold;
+        vertical-align: middle;
+//        padding: 0 15px;
+    }
+    #rsmm-lang-slo {
+        vertical-align: middle;
+        padding: 0 15px;
+        a {
+            display: block;
+            color: $BELA;
+        }
+        &:hover {
+            background-color: $ORANZNA;
+        }
+    }
+}

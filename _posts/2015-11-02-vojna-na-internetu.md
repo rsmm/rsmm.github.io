@@ -2,6 +2,7 @@
 layout: blog
 title: Vojna na internetu
 ---
+
 <a href="http://map.norsecorp.com/" target="_blank">
 <img src="/images/posts/norske.jpg">
 <a>
@@ -31,3 +32,4 @@ uporabnikov "nalezli" zlonamernih programov in postali člani škodljivih
 Morda je med njimi tudi računalnik, na katerem zdaj tole berete.
 Če vas je zaskrbelo, lahko nadaljujte [tukaj](/storitve/pregled_sistema.html).
 
+LP, Miro

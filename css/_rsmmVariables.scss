@@ -6,6 +6,8 @@ $ORANZNA:                       #E84A1D;
 $JAJCNO-BELA:                   #F1F7EE;
 $BELA:                          #FFF;
 $CRNA:                          #000;
+$RDECA:                         #C00;
+$RUMENA:                        #FF0;
 
 
 // $gray-base:                     $TEMNO-MODRA !default;
@@ -39,10 +41,8 @@ $table-bg-accent:               lighten($SVETLO-MODRA, 10%) !default;
 $table-border-color:            $BELA !default;
 
 //== Typography
-// $font-family-sans-serif:        DejaVuSansBook, "Helvetica Neue", Helvetica, Arial, sans-serif !default;
 $font-family-sans-serif:        DejaVuSans, "Helvetica Neue", Helvetica, Arial, sans-serif !default;
 $font-family-serif:             Georgia, "Times New Roman", Times, serif !default;
-// $font-family-monospace:         DejaVuSansMonoBook, Menlo, Monaco, Consolas, "Courier New", monospace !default;
 $font-family-monospace:         DejaVuSansMono, Menlo, Monaco, Consolas, "Courier New", monospace !default;
 $font-family-base:              $font-family-sans-serif !default;
 
@@ -55,7 +55,7 @@ $font-size-large:               ceil(($font-size-base * 1.25)) !default; // ~18p
 $font-size-small:               ceil(($font-size-base * 0.85)) !default; // ~12px
 
 // Basics of a navbar
-$navbar-height:                             60px !default;
+$navbar-height:                             $rsmm-nav2-height !default;
 $navbar-default-color:                      $BELA !default;
 $navbar-default-bg:                         $TEMNO-MODRA !default;
 

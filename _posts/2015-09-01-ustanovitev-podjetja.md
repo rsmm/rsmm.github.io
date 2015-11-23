@@ -25,3 +25,5 @@ Objavljena navodila so namreč hudo zaostajala za aktualnimi verzijami spletnih 
 
 Jih imate morda tudi vi?
 Nikar ne oklevajte, nadaljujte [tukaj](/opodjetju/kontakt.html).
+
+LP, Miro
