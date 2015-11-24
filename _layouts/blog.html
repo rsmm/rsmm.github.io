@@ -9,20 +9,20 @@ nav: "novice"
         <div class="col-sm-3 col-md-3 novice-seznam">
             
             <div id="rsmm-novice-icon">
-                <img src="/images/50_novice_tipkovnica_ORA.png" class="img-responsive center-block">
+                <img alt="tipkovnica" src="/images/50_novice_tipkovnica_ORA.png" class="img-responsive center-block">
 
                 {% if page.novicehome == "home" %}
                 {% else %}
                     <div id="rsmm-novice-image">
                         <a href="/opodjetju/novice.html">
-                            <img src="/images/51_novice_tipkovnica.png" class="img-responsive center-block">
+                            <img alt="tipkovnica" src="/images/51_novice_tipkovnica.png" class="img-responsive center-block">
                         </a>
                     </div>
                 {% endif %}
 
             </div>
             
-            <p class="novice-naslov">novice</p>
+            <h1>novice</h1>
 
             {% for post in site.posts %}
                 <p>
@@ -42,7 +42,7 @@ nav: "novice"
         <div class="col-sm-8 col-md-8">
             {% if page.novicehome == "home" %}
             {% else %}
-                <p class="novice-title">{{ page.title }}</p>
+                <h2>{{ page.title }}</h2>
             {% endif %}
             <div>
                 {{ content }}

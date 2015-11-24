@@ -7,7 +7,7 @@ novicehome: home
 <div class="row">
     
     <div class="col-sm-12 col-md-5">
-        {% for post in site.posts limit:2 %}
+        {% for post in site.posts limit:3 %}
             <div class="home-novica">
                 <a href="{{ post.url }}" class="novice-title">
                     {{ post.title }}
@@ -21,7 +21,7 @@ novicehome: home
     </div>    
     
     <div class="col-sm-12 col-md-5">
-        {% for post in site.posts offset:2 limit:4 %}
+        {% for post in site.posts offset:3 limit:3 %}
             <div class="home-novica">
                 <a href="{{ post.url }}" class="novice-title">
                     {{ post.title }}

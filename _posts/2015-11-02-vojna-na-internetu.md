@@ -4,7 +4,7 @@ title: Vojna na internetu
 ---
 
 <a href="http://map.norsecorp.com/" target="_blank">
-<img src="/images/posts/norske.jpg">
+<img alt="internetna vojna" src="/images/posts/norske.jpg">
 <a>
 
 <!--more-->
@@ -30,6 +30,6 @@ uporabnikov "nalezli" zlonamernih programov in postali člani škodljivih
 [robotskih omrežij](https://en.wikipedia.org/wiki/Botnet){:target="_blank"}.
 
 Morda je med njimi tudi računalnik, na katerem zdaj tole berete.
-Če vas je zaskrbelo, lahko nadaljujte [tukaj](/storitve/pregled_sistema.html).
+Če vas je zaskrbelo, lahko nadaljujte [tukaj](/storitve/pregledsistema.html).
 
 LP, Miro

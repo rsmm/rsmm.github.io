@@ -79,10 +79,8 @@ body {
     }
     
     #rsmm-nav-2 {
-        li.active {
-            a {
-                font-weight: bold;
-            }
+        li.active>a {
+            font-weight: bold;
         }
     }
 }
@@ -91,10 +89,15 @@ body {
 // naslov (levo v storitvah, referencah ...)
 .storitve-naslov,
 .reference-naslov {
-    text-align: center;
-    color: $ORANZNA;
-    font-family: $font-family-monospace;
-    font-size: $font-size-large;
+    h1, p {
+        text-align: center;
+        color: $ORANZNA;
+        font-family: $font-family-monospace;
+        font-size: $font-size-large;
+        line-height: 26px;
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
 
     img {
         max-height: 120px;
@@ -102,19 +105,18 @@ body {
         margin-left: auto;
         margin-right: auto;
     }
-
-    p {
-        margin-top: 20px;
-        margin-bottom: 20px;
-    }
 }
 
 // predstavitev in uradno
 .rsmm-predstavitev {
-    text-align: center;
-    color: $ORANZNA;
-    font-family: $font-family-monospace;
-    font-size: $font-size-large;
+    h1 {
+        text-align: center;
+        color: $ORANZNA;
+        font-family: $font-family-monospace;
+        font-size: $font-size-large;
+        line-height: 26px;
+        margin-bottom: 20px;
+    }
 
     p {
         margin-bottom: 20px;
@@ -145,10 +147,13 @@ body {
         }
     }
     
-    .rsmm-cenik-naslov {
+    h1 {
         color: $ORANZNA;
         font-family: $font-family-monospace;
         font-size: $font-size-large;
+        line-height: 26px;
+        padding-left: 8px;
+        margin-top: 0;
     }
     .rsmm-cenik-velja {
         margin-bottom: 30px;
@@ -203,7 +208,7 @@ body {
 .rsmm-novice {
     text-align: justify;
         
-    .novice-naslov {
+    h1 {
         text-align: center;
         color: $ORANZNA;
         font-family: $font-family-monospace;
@@ -264,12 +269,14 @@ body {
         margin-right: auto;
     }
     
-    .novice-title {
+    .novice-title, h2 {
         color: $TEMNO-MODRA;
+        font-family: $font-family-monospace;
         font-style: bold;
         font-size: $font-size-large;
         text-transform: uppercase;
         margin-bottom: 20px;
+        margin-top: 0;
     }
 }
     

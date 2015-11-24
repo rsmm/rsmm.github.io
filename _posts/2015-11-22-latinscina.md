@@ -4,7 +4,7 @@ title: Latinščina
 ---
 
 <a href="/language/LAT.html" target="_blank">
-<img src="/images/61_emonec.png" style="height:180px; width:auto">
+<img alt="emonec" src="/images/61_emonec.png" style="height:180px; width:auto">
 <a>
 
 Od danes smo vsaj malo poskrbeli tudi za obiskovalce naše spletne strani, ki ne razumejo slovensko.
