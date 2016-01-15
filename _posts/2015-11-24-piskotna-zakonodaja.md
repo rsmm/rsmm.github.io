@@ -3,7 +3,7 @@ layout: blog
 title: Piškotna zakonodaja
 ---
 
-<img src="/images/cookies.gif" alt="Piškotki" style="height:120px; width:auto">
+<img src="/images/posts/cookies.gif" alt="Piškotki" style="height:120px; width:auto">
 
 Evropska zakonodaja o piškotkih že dolgo ni več novica
 in po mnenju mnogih je najmanj precej neživljenjska. 
