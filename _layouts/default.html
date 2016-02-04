@@ -2,6 +2,7 @@
 <html class="no-js" lang="{% if page.language %}{{ page.language }}{% else %}si{% endif %}">    
     <head>
         {% include head.html %}    
+        {% include google_analytics.html %}
     </head>
     <body>
         {% if page.language %}
@@ -13,7 +14,6 @@
         {{ content }}
 
         {% include footer.html %}            
-        {% include google_analytics.html %}
         {% include cookieconsent.html %}
     </body>
 </html>

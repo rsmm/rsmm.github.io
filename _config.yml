@@ -23,6 +23,3 @@ exclude:
 safe: true
 lsi: false
 
-# Google Analytics
-google_analytics_tracking_id: 'UA-36020299-2'
-
