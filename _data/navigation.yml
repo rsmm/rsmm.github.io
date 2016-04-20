@@ -18,14 +18,27 @@
     - subtitle: "spletne strani"
       subhref: "/storitve/spletnestrani.html"
 
+- title: "tehnologija"
+  href: "/#"
+  subcategories:
+    - subtitle: "Microsoft"
+      subhref: "/tehnologija/microsoft.html"
+    - subtitle: "VMware"
+      subhref: "/tehnologija/vmware.html"
+    - subtitle: "Veeam"
+      subhref: "/tehnologija/veeam.html"
+    - subtitle: "Synology"
+      subhref: "/tehnologija/synology.html"
+    - subtitle: "pfSense"
+      subhref: "/tehnologija/pfsense.html"
+    - subtitle: "Ubuntu MATE"
+      subhref: "/tehnologija/ubuntumate.html"
+
 - title: "novice"
   href: "/opodjetju/novice.html"
 
 - title: "reference"
   href: "/opodjetju/reference.html"
-
-- title: "cenik"
-  href: "/opodjetju/cenik.html"
 
 - title: "o podjetju"
   href: "/#"
@@ -34,6 +47,8 @@
       subhref: "/opodjetju/predstavitev.html"
     - subtitle: "uradno"
       subhref: "/opodjetju/uradno.html"
+    - subtitle: "cenik"
+      subhref: "/opodjetju/cenik.html"
     - subtitle: "piškotki"
       subhref: "/opodjetju/piskotki.html"
 
