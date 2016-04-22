@@ -92,6 +92,7 @@ body {
 
 // naslov (levo v storitvah, referencah ...)
 .storitve-naslov,
+.tehnologija-naslov,
 .reference-naslov {
     h1, p {
         text-align: center;
@@ -110,6 +111,13 @@ body {
         margin-right: auto;
     }
 }
+
+.tehnologija-naslov {
+    img {
+        margin-bottom: 20px;
+    }
+}
+
 
 // predstavitev in uradno
 .rsmm-predstavitev {
@@ -322,3 +330,24 @@ body {
         }
     }
 }
+
+// social
+@import 'jssocials';
+@import 'jssocials-theme-plain';
+#social-share  { 
+    position: relative;
+    top: -20px;
+    margin-bottom: -20px;
+    .jssocials-share-link { 
+        border: 0; 
+        padding-left: 5px;
+        padding-right: 5px;
+        font-size: 14px;
+    }    
+    .jssocials-share-email {
+        .jssocials-share-link {
+            padding-right: 0;
+        }
+    }
+}
+

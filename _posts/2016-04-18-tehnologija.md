@@ -23,6 +23,7 @@ zato smo našo spletno stran razširili z novim zavihkom tehnologija.
 
 Oglasite se nam in prepričan sem, da lahko s kakšno od 
 opisanih tehnologij pomagamo tudi vam.
+
 Naš kontakt najdete [tukaj](/opodjetju/kontakt.html).
 
 LP, Miro
