@@ -12,7 +12,7 @@ kjer se rola prava muzika je Rock Radio. Fantje so pravkar zaključili
 glasovanje poslušalcev in objavili veličastno lestvico 1000 naj rock komadov vseh časov. 
 
 Ko sem gledal, kako se rezultat ujema z mojim okusom, mi ni bilo všeč,
-da da imam 10 strani po 100 komadov. Zato sem "downloadal" vse sezname,
+da imam 10 strani po 100 komadov. Zato sem "downloadal" vse sezname,
 jih dal v bazo in se poigral z njo. Tukaj je rezultat.
 Lahko ga pogledate tudi kot seznam top izvajalcev.
 
